@@ -1,7 +1,7 @@
 var br = new BookReader();
 br.IIIF({
-    url: 'http://www.shared-canvas.org/impl/demo1d/res_human/manifest.json',
-    sequenceId : 'http://www.shared-canvas.org/impl/demo1d/res_human/sequence/normal.json',
+    url: 'http://dms-data.stanford.edu/data/manifests/Walters/qm670kv1873/manifest.json',
+    sequenceId : 'http://dms-data.stanford.edu/data/manifests/Walters/qm670kv1873/normal',
     maxWidth: 800
 });
 
