@@ -131,7 +131,7 @@
             jQuery.each(brInstance.jsonLd.sequences, function(index, sequence) {
                 if (sequence['@id'] === sequenceId) {
                     brInstance.IIIFsequence.title = "here's a sequence";
-                    brInstance.numLeafs = 515;
+                    brInstance.numLeafs = this.canvases.length;
                     brInstance.IIIFsequence.bookUrl = "http://iiif.io";
                     brInstance.IIIFsequence.imagesList = getImagesList(sequence);
                 }
